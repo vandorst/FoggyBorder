@@ -6,8 +6,7 @@
   "plugin": "dev.louis.foggyborder.client.mixin.FoggyBorderMixinPlugin",
   "client": [
     "FogRendererMixin",
-    "RenderedChunkMixin",
-    "WorldRendererMixin"
+    "RenderedChunkMixin"
   ],
   "injectors": {
     "defaultRequire": 1
