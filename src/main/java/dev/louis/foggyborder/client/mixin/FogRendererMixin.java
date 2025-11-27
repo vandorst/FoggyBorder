@@ -1,7 +1,6 @@
 package dev.louis.foggyborder.client.mixin;
 
 import com.llamalad7.mixinextras.sugar.Local;
-import dev.louis.foggyborder.client.FoggyBorder;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.Camera;
 import net.minecraft.client.render.RenderTickCounter;
