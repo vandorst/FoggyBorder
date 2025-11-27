@@ -17,9 +17,6 @@
   "entrypoints": {
     "client": [
       "dev.louis.foggyborder.client.FoggyBorder"
-    ],
-    "modmenu": [
-      "dev.louis.foggyborder.client.config.ModMenuIntegration"
     ]
   },
   "mixins": [
@@ -28,7 +25,6 @@
   "accessWidener": "foggyborder.accesswidener",
   "depends": {
     "minecraft": ">=1.21.6",
-    "fabricloader": ">=${loader_version}",
-    "yet_another_config_lib_v3": "*"
+    "fabricloader": ">=${loader_version}"
   }
 }

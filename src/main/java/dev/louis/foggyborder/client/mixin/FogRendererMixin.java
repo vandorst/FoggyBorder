@@ -27,7 +27,7 @@ public class FogRendererMixin {
         var distance = worldBorder.getDistanceInsideBorder(camera.getPos().x, camera.getPos().z);
 
         fogData.environmentalEnd =
-                (float) Math.min(Math.max(distance * FoggyBorder.config.fogEndDistanceMultiplier, FoggyBorder.config.minimumFogEndDistance), fogData.environmentalEnd);
+                (float) Math.min(Math.max(distance * 1, 2f), fogData.environmentalEnd);
         //fogData.renderDistanceEnd =
         //        (float) Math.min(Math.max(distance * FoggyBorder.config.fogEndDistanceMultiplier, FoggyBorder.config.minimumFogEndDistance), fogData.renderDistanceEnd);
         //fogData.skyEnd = (float) Math.min(Math.max(distance * FoggyBorder.config.fogEndDistanceMultiplier, FoggyBorder.config.minimumFogEndDistance), fogData.skyEnd);
